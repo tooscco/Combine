@@ -7,7 +7,7 @@ const Dashboard = () => {
     const navigate = useNavigate()
     const [isLoading, setIsLoading] = useState(false)
     const [task, setTask] = useState([])
-    let url = 'http://localhost:4000/dashboard';
+    let url = 'https://combine-phi.vercel.app/dashboard';
     // useEffect(() => {
     //         axios.get(url).then((res)=>{
     //                 console.log(res.data.data);
@@ -18,7 +18,7 @@ const Dashboard = () => {
     //      })
     // },[]);
                 
-     let url2 = 'http://localhost:4000/verifyUser';
+     let url2 = 'https://combine-phi.vercel.app/verifyUser';
 
      const token = localStorage.getItem('token');
      useEffect(() =>{

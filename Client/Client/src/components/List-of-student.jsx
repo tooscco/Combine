@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const ListOfStudent = () => {
     const [data, setData] = useState ()
-    const url = 'http://localhost:4000/';
+    const url = 'https://combine-phi.vercel.app/';
 
     const getData = ()=>{
         axios.get(url).then((res) => {
