@@ -13,8 +13,8 @@ app.use(express.json());
 
 // Configure CORS
 const corsOptions = {
-  origin: ['https://frontend-five-sigma-26.vercel.app'], // Specify allowed origins
-  methods: 'GET, POST',
+  origin: '*',  // Allow all origins
+  methods: 'GET, POST', // Add other methods as needed
   optionsSuccessStatus: 200 // Some legacy browsers choke on 204
 };
 
