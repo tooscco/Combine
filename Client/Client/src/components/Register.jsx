@@ -9,7 +9,7 @@ const Register = () => {
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-    const url = 'https://combine-phi.vercel.app/register';
+    const url = 'https://combine-ikmb.onrender.com/register';
 
    const registerUser=(e)=>{
     e.preventDefault()

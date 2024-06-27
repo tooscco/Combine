@@ -7,7 +7,7 @@ const Signin = () => {
     const navigate = useNavigate()
     const [email, setEmail]= useState('')
     const [password, setPassword]= useState('')
-    const url = 'https://combine-phi.vercel.app/login';
+    const url = 'https://combine-ikmb.onrender.com/login';
 
     const setLogin=(e)=>{
         e.preventDefault()
