@@ -10,6 +10,7 @@ const Register = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const url = 'https://combine-ikmb.onrender.com/register';
+    // const url = 'http://localhost:5000/'
 
    const registerUser=(e)=>{
     e.preventDefault()
