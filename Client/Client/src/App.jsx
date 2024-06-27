@@ -11,6 +11,8 @@ import ShowApi from "./ShowApi"
 import ShowNav from "./ShowNav"
 import Logout from "./components/Logout"
 import UserProfile from "./UserProfile"
+import Formik from "./components/Formik"
+import CounterS from "./components/Counter"
 
 const App = () => {
   
@@ -27,6 +29,8 @@ const App = () => {
         <Route path='/home' element={<Home />}/>
         <Route path="/register" element={ <Register />}/>
         <Route path="/login" element={<Signin />}/>
+        <Route path="/counter" element={<CounterS />}/>
+        <Route path="/formik" element={<Formik />}/>
         <Route path='/users' element={<User />} />
         <Route path='/users/user/:username' element={<UserProfile />}/>
         <Route path='/login' element={<Logout />}/>
